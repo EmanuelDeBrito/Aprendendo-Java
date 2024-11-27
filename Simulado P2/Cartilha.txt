@@ -1,0 +1,19 @@
+Produto é uma classe que tem como atributos nome, quantidade e preço e também os metodos getters e setters.
+Ela é usada no exercício 1 após a leitura do arquivo csv para criar uma instância de produto
+
+Aluno é uma classe que tem como atributos nome e notas e também os metodos getters, setters e media.
+Ela é usada no exercicio 2 para a criação de uma instância do aluno, onde é preenchido o nome e notas do aluno e onde pode observar sua nota
+
+Métodos da classe main
+
+exercicio1() -- Quando chamado ele separa as palavras da linha pelo delimitador (,) e depois cria a instância do produto com as informações que foram separadas e por fim mostra as informações
+
+exercicio2() -- Método que cria a instância do aluno, preenche os atributos, mostra os atributos e calcula a media
+
+exercicio3() -- Método que conta as linhas e palavras de um arquivo, no final ele mostra a quantidade de linhas e palavras em média por linha
+
+exercico4() -- Método que vê se a lista está em ordem crescente, se estiver mostra uma mensagem que está em ordem crescente senão chama um método que coloca a lista em ordem crescente
+
+mostrarListaCrescente() -- Método que coloca a lista em ordem crescente
+
+lerArquivo() -- Método que ajuda na leitura do arquivo csv, após a leitura de uma linha do arquivo csv o mesmo chama o método exercicio1() que separa os atributos e cria a instância do produto
